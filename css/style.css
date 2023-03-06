@@ -82,8 +82,6 @@ section {
     min-height: 520px;
 }
 
-
-
 section:nth-child(even) {
     background-color: #d3d3d3;
 }
@@ -100,4 +98,49 @@ section:nth-child(even) {
     background-color: #228b22;
     min-height: 935px;
 }
+
+footer {
+    background-color: #23272a;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.firstColumn, .secondColumn {
+    min-height: 600px;
+}
+
+.firstColumn {
+    background-color: #f08080;
+    width: 30%;
+    border: 1px dashed black;
+}
+
+.secondColumn {
+    background-color: #20b2aa;
+    width: 70%;
+    border: 1px dashed white;
+}
+
+hr {
+    color: white;
+}
+
+.boxFooter {
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem ;
+}
+
+footer .flexContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.column {
+    width: calc(100% / 4);
+    border: 1px dashed white;
+    min-height: 600px;
+}
+
+
+
 
