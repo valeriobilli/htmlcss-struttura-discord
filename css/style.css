@@ -63,6 +63,15 @@ section {
     padding-bottom: 3rem;
 }
 
+section:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+.greenBox {
+    background-color: #228b22;
+    min-height: 935px;
+}
+
 
 
 
