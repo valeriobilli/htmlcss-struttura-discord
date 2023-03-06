@@ -6,7 +6,6 @@
 header {
     background-color: #add8e6;
     padding-top: 1em;
-    padding-bottom: 1em;
 }
 
 nav {
@@ -21,8 +20,17 @@ nav {
 
 .pinkBox {
     background-color: #ee82ee;
-    
+    max-width: 945px;
+    min-height: 415px;
+    margin: auto;
+    border: 1px dashed black;
+}
 
+.blueBox {
+    background-color: #00008b;
+    margin-top: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 
