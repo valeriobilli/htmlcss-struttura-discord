@@ -33,6 +33,35 @@ nav {
     padding-bottom: 3rem;
 }
 
+.boxed {
+    max-width: 1250px;
+    margin: auto;
+    border: 1px dashed black;
+}
+
+.bigbox {
+    width: 60%;
+    min-height: 520px;
+    background-color: #1e90ff;
+}
+
+.smallbox {
+    width: 40%;
+    background-color: #ffc0cb;
+    min-height: 520px;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
 
 
 
