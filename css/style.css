@@ -11,11 +11,37 @@ header {
 nav {
     width: 65%;
     margin: auto;
-    padding: 1em;
     background-color: #daa520;
     display: flex;
     justify-content: space-between;
     border: 1px dashed black;
+}
+
+nav > div {
+    padding: 1em;
+}
+
+#links {
+    width: 60%;
+    border-left: 2px dashed black;
+    border-right: 2px dashed black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.flexContainerLinks {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .pinkBox {
@@ -29,6 +55,11 @@ nav {
 .blueBox {
     background-color: #00008b;
     margin-top: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+section {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
@@ -51,36 +82,22 @@ nav {
     min-height: 520px;
 }
 
-.flexContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
 
-section {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
 
 section:nth-child(even) {
     background-color: #d3d3d3;
+}
+
+.bigbox:nth-of-type(odd) {
+    border-right: 2px dashed black;
+}
+
+.bigbox:nth-of-type(even) {
+    border-left: 2px dashed black;
 }
 
 .greenBox {
     background-color: #228b22;
     min-height: 935px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
